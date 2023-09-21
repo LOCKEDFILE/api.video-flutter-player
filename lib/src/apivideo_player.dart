@@ -85,13 +85,13 @@ class _ApiVideoPlayerState extends State<ApiVideoPlayer> {
             child: Stack(
               children: <Widget>[
                 _playerPlatform.buildView(_textureId),
-                Positioned.fill(
-                  child: ApiVideoPlayerOverlay(
-                    controller: widget.controller,
-                    hideControls: widget.hideControls,
-                    theme: widget.theme,
-                  ),
-                ),
+                // Positioned.fill(
+                //   child: ApiVideoPlayerOverlay(
+                //     controller: widget.controller,
+                //     hideControls: widget.hideControls,
+                //     theme: widget.theme,
+                //   ),
+                // ),
               ],
             )),
       );
